@@ -3,6 +3,7 @@ use openmls::versions::ProtocolVersion;
 use sysinfo::
     System
 ;
+use tauri::Manager;
 
 #[tauri::command]
 fn greet(name: &str) -> String {
